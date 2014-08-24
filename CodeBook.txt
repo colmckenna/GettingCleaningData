@@ -1,0 +1,34 @@
+==================================================================
+Getting and Cleaning Data Programming Assignment
+Version 1.0
+==================================================================
+Colin McKenna
+8-24-2014
+Code Book
+==================================================================
+
+The information returned in the dataframe given after running run_analysis.R is a summarized version of the data initially provided. It gives the average of the following measurements, for each
+activity and subject. Only the mean and standard deviation columns are available.
+
+The following measurements are provided in the dataframe:
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
